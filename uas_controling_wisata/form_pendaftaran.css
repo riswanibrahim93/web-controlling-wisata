@@ -1,0 +1,113 @@
+body
+{
+	background-color: white;
+	background-image: url(gambar/gradasi_biru.jpg);
+	background-repeat: repeat-x;
+}
+h1
+{
+	font-family: Times New Roman, Serif;
+	font-size: 50px;
+	text-align: center;
+}
+.container
+{
+	width: 800px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 15px;
+	background-color: #dcdcdc;
+	background-image: url(gambar/2791350.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px 150px;
+}
+.header
+{
+	border-bottom: 5px solid #3141ff;
+	display: block;
+	height: 180px;
+	padding-top: 20px;
+	background-image: url(gambar/6398.jpg);
+	background-size: 100%;
+	background-position: 0px -35px;
+}
+.isi
+{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.kembali
+{
+	margin-top: 20px; 
+	text-align: center;
+	text-decoration: underline;
+	display: block;
+	float: right;
+	padding-right: 30px; 
+}
+label
+{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 24px;
+	margin-right: 20px;
+}
+input
+{
+	display: block;
+	margin-bottom: 20px;
+	height: 24px;
+	width: 300px;
+}
+button
+{
+	/*display: block;*/
+	font-size: 14px;
+	margin-right: 20px;
+	width: 80px;
+	height: 30px;
+}
+form
+{
+	margin-top: 50px;
+	padding-left: 200px; 
+	padding-bottom: 20px;
+}
+h3
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+h4
+{
+	float: right;
+	padding-right: 30px;
+}
+a:link {
+  	color: black;
+}
+a:visited {
+  	color: blue;
+}
+a:hover {
+  	color: hotpink;
+}
+a:active {
+  	color: black;
+}
+.footer
+{
+	background-color: #3141ff;
+	padding: 1px 0px;
+	margin-top: 50px;
+}
+.footer p
+{
+
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}

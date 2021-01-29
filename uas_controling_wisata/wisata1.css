@@ -1,0 +1,107 @@
+body
+{
+	background-color: white;
+	background-image: url(gambar/gradasi_biru.jpg);
+	background-repeat: repeat-x;
+}
+p
+{
+	font-family: Georgia,serif;
+	line-height: 20px;
+	text-align: justify;
+	text-indent: 40px;
+	word-spacing: 5px;
+}
+h1
+{
+	font-family: Times New Roman, Serif;
+	font-size: 30px;
+	text-align: center;
+}
+.container
+{
+	width: 900px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 15px;
+	background-color: #ddffff;
+}
+img
+{
+	background-size: cover;
+	background-position: 0 -150px;
+	height: 260px;
+	width: 900px;
+}
+.header
+{
+	height: 260px;
+	border-bottom: 5px solid #3141ff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	float: none;
+	display: block;
+}
+.desk
+{
+	padding: 5px 50px;
+}
+.daftar
+{
+	padding: 0px 100px;
+}
+.ket
+{
+	margin: auto;
+	text-align: center;
+	color: #cd143c;
+	background-color: white;
+	border-left: 6px solid red;
+	height: 30px;
+}
+.ket h4
+{
+	padding-top: 5px; 
+}
+table a
+{
+	font-size: 10px;
+}
+.topnav a 
+{
+  	float: left;
+  	display: block;
+  	text-align: center;
+  	padding: 10px 20px;
+  	text-decoration: none;
+  	background-color: white;
+  	font-weight: bold;
+  	border-left: solid;
+  	margin-right: 5px;
+  	margin-bottom: 5px;
+}
+a:link {
+  	color: black;
+}
+a:visited {
+  	color: blue;
+}
+a:hover {
+  	color: hotpink;
+}
+a:active {
+  	color: black;
+}
+.footer
+{
+	background-color: #3141ff;
+	padding: 1px 0px;
+	margin-top: 50px;
+}
+.footer p
+{
+
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}

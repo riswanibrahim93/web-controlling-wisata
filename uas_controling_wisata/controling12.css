@@ -1,0 +1,106 @@
+body
+{
+	background-color: white;
+	background-image: url(gambar/gradasi_biru.jpg);
+	background-repeat: repeat-x;
+}
+p
+{
+	font-family: Georgia,serif;
+	line-height: 20px;
+	text-align: justify;
+	text-indent: 40px;
+	word-spacing: 5px;
+}
+h1
+{
+	font-family: Times New Roman, Serif;
+	font-size: 30px;
+	text-align: center;
+}
+.container
+{
+	width: 900px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 15px;
+	background-color: #ddffff;
+}
+img
+{
+	background-size: cover;
+	background-position: 0 -150px;
+	height: 260px;
+	width: 900px;
+}
+.header
+{
+	height: 260px;
+	border-bottom: 5px solid #3141ff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	float: none;
+	display: block;
+}
+.kiri
+{
+	padding: 15px;
+	margin-right: 20px;
+	width: 450px;
+	display: block;
+}
+.kanan
+{
+	background-color: white;
+	margin: auto;
+	margin: 10px;
+	float: right;
+	display: inline-block;
+	width: 360px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;	
+	overflow: auto;
+}
+.tp_pengunjung
+{
+  display: inline-block;
+  float: none;
+
+}
+.tb_pengunjung table {
+  border-collapse: collapse;
+  width: 700px;
+  margin: auto;
+  margin: 50px auto;
+}
+
+.tb_pengunjung th, td {
+  text-align: left;
+  padding: 8px;
+}
+.tb_pengunjung th {
+  background-color: #3141ff;
+  color: black;
+}
+.tb_pengunjung tr:nth-child(even){
+	background-color: #3141ee;
+}
+.tb_pengunjung tr:nth-child(odd){
+	background-color: white;
+}
+.kembali
+{
+	float: right;
+	padding-right: 50px;
+	text-decoration: underline;
+	display: block;
+}
+.footer
+{
+	background-color: #3141ff;
+	margin-top: 10px;
+	display: block;
+	width: 900px;
+	height: 50px;
+}

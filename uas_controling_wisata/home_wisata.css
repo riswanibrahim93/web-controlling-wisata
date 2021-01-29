@@ -1,0 +1,193 @@
+body
+{
+	background-color: white;
+	background-image: url(gambar/gradasi_biru.jpg);
+	background-repeat: repeat-x;
+}
+.topnav{
+	background-color: #3141ff;
+	margin-bottom: 20px;
+}
+
+.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.topnav > ul > li {
+	float: left;
+}
+
+
+.topnav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav li a:hover{
+	background-color: #2525ff;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+	display: block;
+}
+
+.isi-dropdown a:hover {
+	color: #fff !important;
+}
+
+.isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #f9f9f9;
+}
+
+.isi-dropdown a {
+	color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+	color: #232323 !important;
+	background: #f3f3f3 !important;
+}
+.container
+{
+	width: 900px;
+	height: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	margin: auto;
+	background-color: #ddffff;
+}
+.isi1
+{
+	float: right;
+	width: 260px;
+	display: block;
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: block;
+	margin: auto;
+}
+.isi2
+{
+	width: 600px;
+	/*float: left;*/
+	padding-left: 15px;
+	display: block;
+	margin-top: 50px;
+}
+.header
+{
+	width: auto;
+	height: 300px;
+	background-image: url(gambar/home.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px -95px;
+}
+.header p
+{
+	float: right;
+	padding-top: 260px;
+	padding-right: 30px;
+	font-style: bold;
+}
+.about
+{
+	text-align: justify;
+}
+.about p
+{
+	padding: 0px 10px;
+}
+.about h3, .artikel h3
+{
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;
+	color: white;
+}
+.header_about
+{
+	background-color: #3141ff;
+	height: 40px;
+}
+.artikel
+{
+	margin-top: 20px;
+	text-align: justify;
+}
+.artikel li
+{
+	padding: 0px 10px;
+} 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #a7ffff;
+  color: black;
+}
+tr:nth-child(even){
+	background-color: #e2ffff;
+}
+tr:nth-child(odd){
+	background-color: white;
+}
+.isi2 img
+{
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.text
+{
+	margin-top: 50px;
+	text-align: justify;
+	padding-right: 10px;
+}
+.gambar1
+{
+	display: block;
+	margin-bottom: 30px;
+}
+.tbl
+{
+	display: block;
+	margin-bottom: 50px;
+	padding: 10px 50px;
+}
+.footer
+{
+	background-color: #3141ff;
+	padding: 1px 0px;
+	margin-top: 50px;
+}
+.footer p
+{
+
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}

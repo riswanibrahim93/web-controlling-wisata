@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendaftaran</title>
+	<link rel="stylesheet" type="text/css" href="form_pendaftaran.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<!-- <h1>Form Pendaftaran</h1> -->
+		</div>
+		<div class="kembali">
+			<a href="form_masuk.html">Kembali</a>
+		</div>
+		<div class="isi">
+			<form action="aksi_pendaftaran.php" method="POST">
+				<table>
+					<tr>
+						<td><label>Nama</label></td>
+						<td><input type="text" name="nama_user"></td>
+					</tr>
+					<tr>
+						<td><label>Email</label></td>
+						<td><input type="email" name="email_user"></td>
+					</tr>
+					<tr>
+						<td><label>Username</label></td>
+						<td><input type="text" name="username"></td>
+					</tr>
+					<tr>
+						<td><label>Password</label></td>
+						<td><input type="password" name="password"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><button type="submit">Daftar</button><button type="reset">Reset</button></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		
+		<div class="footer">
+			<p>2020.</p>
+		</div>
+	</div>
+</body>
+</html>
